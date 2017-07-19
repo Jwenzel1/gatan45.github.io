@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: gray;
+}
+
+h1, h2{
+  font-weight: bold;
+  padding: 1rem;
+}
+h1{
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+
+div{
+  display: inline-block;
+  height: 600px;
+  overflow-x: auto;
+  padding: 5px;
+}
+
+p{
+  display: inline-block;
+  width: 72%;
+  vertical-align: top;
+  margin: 0px;
+}
+
+img{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.bio{
+  width: 60%;
+}
+
+.contact{
+
+}
