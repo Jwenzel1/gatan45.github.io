@@ -3,78 +3,108 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Portfolio</title>
 </head>
 
 <body>
-  <header>
-    <div class="name">
-      <h1>Joseph Wenzel</h1>
+  <nav class="navbar navbar-default navbarPadding">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#">Joseph Wenzel</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item"><a href="./index.html">About</a></li>
+          <li class="nav-item active"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
-    <nav>
-      <ul>
-        <li><a href="./index.html">About</a></li>
-        <li><a href="./portfolio.html">Portfolio</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- /.container-fluid -->
+  </nav>
 
-  <div class="content">
-    <div class="main border">
-      <div class="title">
-        <h1>Portfolio</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-0 col-md-5 col-md-offset-1 col-xs-12 border bottom-margin">
+        <h1 class="contentHeader">Portfolio</h1>
+        <hr>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-6">
+            <div class="portfolioItem">
+              <img class="img-responsive center-block portfolioImg" src="http://lorempixel.com/400/400" alt="Some Pic">
+              <h2 class="portfolioImgTitle">title</h2>
+            </div>
+            <div class="portfolioItem">
+              <img class="img-responsive center-block portfolioImg" src="http://lorempixel.com/400/400" alt="Some Pic">
+              <h2 class="portfolioImgTitle">title</h2>
+            </div>
+            <div class="portfolioItem">
+              <img class="img-responsive center-block portfolioImg" src="http://lorempixel.com/400/400" alt="Some Pic">
+              <h2 class="portfolioImgTitle">title</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-6">
+            <div class="portfolioItem">
+              <img class="img-responsive center-block portfolioImg" src="http://lorempixel.com/400/400" alt="Some Pic">
+              <h2 class="portfolioImgTitle">title</h2>
+            </div>
+            <div class="portfolioItem">
+              <img class="img-responsive center-block portfolioImg" src="http://lorempixel.com/400/400" alt="Some Pic">
+              <h2 class="portfolioImgTitle">title</h2>
+            </div>
+            <div class="portfolioItem">
+              <img class="img-responsive center-block portfolioImg" src="http://lorempixel.com/400/400" alt="Some Pic">
+              <h2 class="portfolioImgTitle">title</h2>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="portfolio">
-        <div class="portfolioItem">
-          <img src="./assets/images/nature-q-c-640-480-8.jpg" alt="">
-          <p>Trees</p>
-        </div>
-        <div class="portfolioItem">
-          <img src="./assets/images/nature-q-c-640-480-8.jpg" alt="">
-          <p>Trees</p>
-        </div>
-        <div class="portfolioItem">
-          <img src="./assets/images/nature-q-c-640-480-8.jpg" alt="">
-          <p>Trees</p>
-        </div>
-        <div class="portfolioItem">
-          <img src="./assets/images/nature-q-c-640-480-8.jpg" alt="">
-          <p>Trees</p>
-        </div>
-        <div class="portfolioItem">
-          <img src="./assets/images/nature-q-c-640-480-8.jpg" alt="">
-          <p>Trees</p>
-        </div>
-        <div class="portfolioItem">
-          <img src="./assets/images/nature-q-c-640-480-8.jpg" alt="">
-          <p>Trees</p>
-        </div>
-      </div>
-    </div>
 
-    <div class="connectWithMe border">
-      <div class="connectTitle">
-        <h2>Connect With Me</h2>
+      <div class="col-md-1"></div>
+
+      <div class="col-lg-3 col-md-4 border col-xs-12 bottom-margin">
+        <h1 class="contentHeader">Connect with Me</h1>
+        <hr>
+        <div class="row">
+          <div class="col-xs-4">
+            <img class="img-responsive center-block socialMediaImg" src="./assets/images/if_github-square-social-media_764894.png" alt="Github">
+          </div>
+          <div class="col-xs-4">
+            <img class="img-responsive center-block socialMediaImg" src="./assets/images/if_square-linkedin_317725.png" alt="Linkedin">
+          </div>
+          <div class="col-xs-4">
+            <img class="img-responsive center-block socialMediaImg" src="./assets/images/if_stackoverflow-square-social-media_764927.png" alt="Stackoverflow">
+          </div>
+        </div>
       </div>
-      <div class="connectLocations">
-        <a href="https://github.com/gatan45">
-          <img src="./assets/images/if_github2_252065.png" alt="">
-        </a>
-        <a href="https://www.linkedin.com/in/joseph-wenzel-ba7772142/">
-          <img src="./assets/images/if_linkedin_252090.png" alt="">
-        </a>
-        <a href="https://stackoverflow.com/">
-          <img src="./assets/images/if_stackoverflow-square-social-media_764927.png" alt="">
-        </a>
-      </div>
+
     </div>
   </div>
-  <footer>
-    &copy Copyright 2017 Joseph Wenzel
-  </footer>
+
+  <footer class="footer ">
+      <div class="container centerFooterContents">
+        <p>&copy Copyright 2017 Joseph Wenzel</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
